@@ -12,8 +12,8 @@ When I’m not coding, I’m probably sketching ideas or reading tech blogs.</p>
         </div>
         
         <div className='flex mt-10 w-full'>
-            <img src="/about_img2.PNG" className='w-[400px] h-[400px] pl-20 ml-[20]' alt="" />
-            <div className=' ml-[150px] flex flex-col w-full ml-80'>
+            <img src="/about_img2.PNG" className='w-[400px] h-[400px] pl-[200px] ml-[20]' alt="" />
+            <div className=' ml-[300px] flex flex-col w-full ml-80'>
                 <h1 className='text-2xl text-left font-semibold '>skills</h1>
                 <h1 className='font-doto text-xl font-semibold mt-3'>Languages</h1>
                 <div className='flex flex-row space-x-2 mt-5'>  
