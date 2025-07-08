@@ -20,7 +20,7 @@ const Projects = () => {
              Focuses on early prediction to support healthcare decisions using machine learning.
              Includes data preprocessing, feature engineering, model training, and evaluation." 
             />
-            <ProjectCard title="project3" content="this is my project 3" />
+            
         </div>
     </div>
   )
