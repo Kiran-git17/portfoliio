@@ -13,7 +13,7 @@ When I’m not coding, I’m probably sketching ideas or reading tech blogs.</p>
         
         <div className='flex mt-10 justify-center w-full'>
             <img src="/about_img2.PNG" className='w-[500px] h-[400px] ml-[200px] ml-[20]' alt="" />
-            <div className=' ml-[300px] flex flex-col w-full ml-80'>
+            <div className=' ml-[220px] flex flex-col w-full ml-80'>
                 <h1 className='text-2xl text-left font-semibold '>skills</h1>
                 <h1 className='font-doto text-xl font-semibold mt-3'>Languages</h1>
                 <div className='flex flex-row space-x-2 mt-5'>  
