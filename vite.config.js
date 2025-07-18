@@ -12,7 +12,7 @@ export default defineConfig(({ command }) => {
     // This is for the final build (npm run build)
     return {
       plugins: [react()],
-      base: '/portfolio/',
+      base: '/portfoliio/',
     }
   }
 })
