@@ -1,19 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-export default defineConfig(({ command }) => {
-  if (command === 'serve') {
-    // This is for local development (npm run dev)
-    return {
-      plugins: [react()],
-      base: '/',
-    }
-  } else {
-    // This is for the final build (npm run build)
-    // This now correctly matches your repository name "portfoliio"
-    return {
-      plugins: [react()],
-      base: '/portfoliio/',
-    }
-  }
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  // For Vercel, the base path must be the root '/'
+  base: '/',
 })
