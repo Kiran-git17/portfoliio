@@ -10,6 +10,7 @@ export default defineConfig(({ command }) => {
     }
   } else {
     // This is for the final build (npm run build)
+    // This now correctly matches your repository name "portfoliio"
     return {
       plugins: [react()],
       base: '/portfoliio/',
