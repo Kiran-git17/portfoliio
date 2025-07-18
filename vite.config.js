@@ -1,8 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-  base: process.env.VITE_BASE_PATH || "/portfoliio",
+export default defineConfig(({ command }) => {
+  if (command === 'serve') {
+    // This is for local development (npm run dev)
+    return {
+      plugins: [react()],
+      base: '/',
+    }
+  } else {
+    // This is for the final build (npm run build)
+    return {
+      plugins: [react()],
+      base: '/portfolio/',
+    }
+  }
 })
