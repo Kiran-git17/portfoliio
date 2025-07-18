@@ -6,7 +6,7 @@ const Home = () => {
     console.log("All letters have animated!");
   };
   return (
-    <div className=' min-h-screen flex flex-row  justify-between' id="Home">
+    <div className=' min-h-screen flex md:flex-row  justify-between overflow-hidden' id="Home">
         <div className=' ml-[170px] mt-[130px] '>
             <SplitText
   text="Hi I'm Kiran Kommoju 👋"
