@@ -6,14 +6,17 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 const App = () => {
   return (
-    <div className='w-full overflow-hidden'>
-        <Navbar />
+    <>
+    <Navbar />
+
+    <main className='w-full overflow-hidden flex flex-col gap-y-16 '>
+        
         <Home />
         <About/>
         <Projects/>
         <Contact/>
-    </div>
-  
+    </main>
+  </>
   
 
   )

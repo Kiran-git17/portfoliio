@@ -28,7 +28,7 @@ const Contact = () => {
     }
   };
   return (
-    <div className='flex flex-col  items-center  min-h-screen'>
+    <div className='flex flex-col  items-center px-4 ' id='Contact'>
       <div className='flex flex-col max-w-[700px] '>
         <h1 className='text-xl text-center mt-10 text-gray-900 font-doto font-semibold'>connect with me</h1>
       <p className='text-4xl text-center mt-2 '>Get in Touch</p>
@@ -36,12 +36,12 @@ const Contact = () => {
       </div>
 
       <form onSubmit={onSubmit} className='flex flex-col items-center'>
-        <div className='flex space-x-4 mt-10'>
+        <div className='flex flex-col md:flex-row space-y-4  md:space-x-4 md:space-y-0 mt-10'>
              <input className='px-2 py-2 border border-gray-700 w-[290px] rounded-md' type="text" placeholder='Enter your name' name='name' />
              <input className='px-2 py-2 border border-gray-700 w-[290px] rounded-md' type="text" placeholder='Enter your email' name='email'/>
         </div>
        
-        <textarea className='mt-10 border border-gray-700 w-[594px] h-[250px] rounded-md placeholder:align-top p-4' type="text" placeholder='write your message here...' name='message'></textarea>
+        <textarea className='mt-10 border border-gray-700 w-[290px] h-[150px] md:w-[594px] md:h-[250px] rounded-md placeholder:align-top p-4' type="text" placeholder='write your message here...' name='message'></textarea>
         <button type='submit' className='px-2 py-2 rounded-[50px]  mt-5 border border-gray-600 bg-gray-900 text-white'>submit now</button>
 
       </form>
